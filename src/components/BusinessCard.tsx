@@ -33,7 +33,7 @@ const contactInfo = {
 
 export function BusinessCard() {
   return (
-    <Card className="w-[450px] h-[250px] p-6 bg-lime-300 relative overflow-hidden shadow-xl hover:shadow-2xl transition-shadow">
+    <Card className="w-[450px] h-[250px] p-4 sm:p-6 bg-lime-300 relative overflow-hidden shadow-xl hover:shadow-2xl transition-shadow">
       {/* Background Pattern */}
       <div className="absolute top-0 right-0 w-32 h-32 opacity-40">
         <PawPrint className="w-full h-full text-lime-800 " />
@@ -64,7 +64,7 @@ export function BusinessCard() {
         <Separator className="my-4 bg-lime-600" />
 
         {/* Contact Information */}
-        <div className="grid grid-cols-2 gap-3 text-sm">
+        <div className="grid grid-cols-2 gap-1.5 sm:gap-3 text-sm">
           <a
             href={`tel:${contactInfo.phone}`}
             className="flex items-center gap-2 text-neutral-900 hover:text-teal-900"
