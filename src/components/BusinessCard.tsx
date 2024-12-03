@@ -38,7 +38,7 @@ export function BusinessCard() {
       <div className="absolute top-0 right-0 w-32 h-32 opacity-40">
         <PawPrint className="w-full h-full text-lime-800 " />
       </div>
-      <div className="absolute bottom-24 left-56 w-24 h-24 opacity-5 transform rotate-[165deg]">
+      <div className="absolute bottom-24 left-[48%] sm:left-56 w-24 h-24 opacity-5 transform rotate-[165deg]">
         <Syringe className="w-full h-full " />
       </div>
 
